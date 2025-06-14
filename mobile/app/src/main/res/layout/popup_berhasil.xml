@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="350dp"
+    android:layout_gravity="center"
+    android:background="@drawable/cicle_background">
+
+    <ImageView
+        android:id="@+id/success"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/accept_check_good_mark_ok_tick_svgrepo_com"/>
+    
+    <TextView
+        android:id="@+id/textSuccess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berhasil login"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_below="@+id/success"/>
+
+    <Button
+        android:id="@+id/buttonsucces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textSuccess"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
